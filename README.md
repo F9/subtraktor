@@ -14,3 +14,12 @@ Then simply launch
 <code> python subtraktor.py </code>
 <br>
 and enjoy the subs
+
+Automatically work
+------------------
+
+To automatically start the script you can add a line to your crontab file. In UNIX sys write <br />
+<code>crontab -e</code> <br />
+and add <br />
+<code>@hourly python /home/pi/Download/subtraktor.py</code> <br />
+The script each hour will check if there is new subs for your tv shows and films.
